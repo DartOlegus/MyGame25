@@ -1,0 +1,20 @@
+@echo off
+"D:\\Unity\\6000.2.5f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK\\bin\\java" ^
+  --class-path ^
+  "C:\\Users\\Oleg\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar" ^
+  com.google.prefab.cli.AppKt ^
+  --build-system ^
+  cmake ^
+  --platform ^
+  android ^
+  --abi ^
+  armeabi-v7a ^
+  --os-version ^
+  23 ^
+  --stl ^
+  c++_shared ^
+  --ndk-version ^
+  27 ^
+  --output ^
+  "C:\\Users\\Oleg\\AppData\\Local\\Temp\\agp-prefab-staging13667576598994668779\\staged-cli-output" ^
+  "C:\\Users\\Oleg\\.gradle\\caches\\8.11\\transforms\\9e2da323fa37aa33f0b1b3514982095f\\transformed\\jetified-games-frame-pacing-2.1.2\\prefab"

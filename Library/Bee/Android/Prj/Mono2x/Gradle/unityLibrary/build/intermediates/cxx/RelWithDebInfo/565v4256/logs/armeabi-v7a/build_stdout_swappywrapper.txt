@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Unity\My project\.utmp\RelWithDebInfo\565v4256\armeabi-v7a'
+ninja: no work to do.

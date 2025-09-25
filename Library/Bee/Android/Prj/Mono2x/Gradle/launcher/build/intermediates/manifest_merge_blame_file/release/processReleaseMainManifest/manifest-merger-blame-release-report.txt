@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Myproject"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+10        android:targetSdkVersion="36" />
+11
+12    <supports-screens
+12-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-54
+19-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:5-11:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:9-33
+23    <uses-feature
+23-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-52
+25        android:required="false" />
+25-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:9-63
+28        android:required="false" />
+28-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:5-20:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-72
+31        android:required="false" />
+31-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:9-33
+32
+33    <application
+33-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+34        android:appCategory="game"
+34-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:9-35
+35        android:enableOnBackInvokedCallback="true"
+35-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:9-51
+36        android:extractNativeLibs="true"
+37        android:icon="@mipmap/app_icon"
+37-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
+38        android:label="@string/app_name" >
+38-->D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
+39        <meta-data
+39-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:9-28:33
+40            android:name="unity.splash-mode"
+40-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:13-45
+41            android:value="0" />
+41-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:13-30
+42        <meta-data
+42-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:9-31:36
+43            android:name="unity.splash-enable"
+43-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:13-47
+44            android:value="True" />
+44-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:13-33
+45        <meta-data
+45-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:32:9-34:36
+46            android:name="unity.launch-fullscreen"
+46-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:33:13-51
+47            android:value="True" />
+47-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:13-33
+48        <meta-data
+48-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:35:9-37:36
+49            android:name="unity.render-outside-safearea"
+49-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:36:13-57
+50            android:value="True" />
+50-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:13-33
+51        <meta-data
+51-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:38:9-40:50
+52            android:name="notch.config"
+52-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:39:13-40
+53            android:value="portrait|landscape" />
+53-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:13-47
+54        <meta-data
+54-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:41:9-43:36
+55            android:name="unity.auto-report-fully-drawn"
+55-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:42:13-57
+56            android:value="true" />
+56-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:13-33
+57        <meta-data
+57-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:9-46:37
+58            android:name="unity.strip-engine-code"
+58-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:45:13-51
+59            android:value="false" />
+59-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:46:13-34
+60        <meta-data
+60-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:47:9-49:36
+61            android:name="unity.auto-set-game-state"
+61-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:48:13-53
+62            android:value="true" />
+62-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:49:13-33
+63
+64        <activity
+64-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:51:9-77:20
+65            android:name="com.unity3d.player.UnityPlayerActivity"
+65-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:52:13-66
+66            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+66-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:53:13-194
+67            android:enabled="true"
+67-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:54:13-35
+68            android:exported="true"
+68-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:55:13-36
+69            android:hardwareAccelerated="false"
+69-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:56:13-48
+70            android:launchMode="singleTask"
+70-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:57:13-44
+71            android:resizeableActivity="false"
+71-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:58:13-47
+72            android:screenOrientation="fullUser"
+72-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:59:13-49
+73            android:theme="@style/UnityThemeSelector" >
+73-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:60:13-54
+74            <intent-filter>
+74-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:61:13-65:29
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:62:17-77
+75-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:62:27-74
+76
+77                <action android:name="android.intent.action.MAIN" />
+77-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:64:17-69
+77-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:64:25-66
+78            </intent-filter>
+79
+80            <meta-data
+80-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:67:13-69:40
+81                android:name="unityplayer.UnityActivity"
+81-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:68:17-57
+82                android:value="true" />
+82-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:69:17-37
+83            <meta-data
+83-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:70:13-72:40
+84                android:name="notch_support"
+84-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:71:17-45
+85                android:value="true" />
+85-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:72:17-37
+86
+87            <layout
+87-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:74:13-76:44
+88                android:minHeight="300px"
+88-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:75:17-42
+89                android:minWidth="400px" />
+89-->[:unityLibrary] D:\Unity\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:76:17-41
+90        </activity>
+91    </application>
+92
+93</manifest>
